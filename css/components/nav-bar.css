@@ -1,0 +1,56 @@
+.nav {
+    background-color: blue;
+    color: white;
+    padding:20px 50px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    box-sizing: border-box;
+}
+.nav_ul{display:flex; justify-content:  space-between;}
+
+
+.nav_link {
+    color: #2e363e;
+    position:relative;
+}
+
+.nav_notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight:bold;
+    position:absolute; 
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav_notification2 {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position:absolute; 
+    left: 30px;
+    top: -10px;
+}
+
+.coworkers-header_icons {
+    position: relative;
+}
+
+.nav_notification3 {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position:absolute; 
+    right:-5px;
+    top: -10px; 
+}
